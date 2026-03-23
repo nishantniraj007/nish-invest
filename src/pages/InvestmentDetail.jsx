@@ -84,7 +84,7 @@ const InvestmentDetail = () => {
         </div>
 
         {/* Graph */}
-        <PerformanceGraph schemeCode={investment.mfSchemeCode} />
+        <PerformanceGraph schemeCode={investment.mfSchemeCode} apiSymbol={investment.apiSymbol} />
 
         {/* Truth Panel */}
         <TruthPanel investment={investment} />
