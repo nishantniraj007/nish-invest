@@ -4,10 +4,13 @@ const TrustWarningModal = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const seen = sessionStorage.getItem('seenWarning');
-    if (!seen) {
-      setIsOpen(true);
-    }
+    const timer = setTimeout(() => {
+      const seen = sessionStorage.getItem('seenWarning');
+      if (!seen) {
+        setIsOpen(true);
+      }
+    }, 300);
+    return () => clearTimeout(timer);
   }, []);
 
   const handleDismiss = () => {
@@ -30,12 +33,10 @@ const TrustWarningModal = () => {
         </div>
         
         <div className="p-8 md:p-12 space-y-8">
-          <div className="space-y-4">
-            <p className="text-gray-700 leading-relaxed">
-              Scammers often use "Affinity Fraud" where they use your friends, family, or community to win your trust. 
-              Just because someone you know made money doesn't mean the investment is real.
-            </p>
-          </div>
+          <p className="text-gray-700 leading-relaxed">
+            Scammers often use "Affinity Fraud" — they use your friends, family, or community to win your trust. 
+            Just because someone you know made money doesn't mean the investment is real.
+          </p>
 
           <div className="bg-[#F2F4F7] p-6 rounded-2xl">
             <h3 className="font-bold text-[#1B3A6B] mb-4 uppercase text-xs tracking-widest">Always ask these 3 questions:</h3>
