@@ -43,7 +43,7 @@ const Navbar = () => {
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/nish-invest">
       <div className="min-h-screen bg-[#F2F4F7] font-sans text-[#1B3A6B]">
         <Navbar />
         <div className="md:pt-16 pb-20 md:pb-0">
