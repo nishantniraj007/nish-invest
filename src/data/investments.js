@@ -73,12 +73,12 @@ export const investments = [
     verdictReason: "Low cost and disciplined way to build a retirement fund.",
     suitedFor: ["Salaried employees", "People planning for old age", "Tax savers"],
     notSuitedFor: ["Young people wanting to buy a house soon", "Those who want full control over every rupee"],
-    exitGuide: "At 60, you get 60% as a lump sum. The rest stays to pay you a monthly 'salary'.",
+    exitGuide: "At 60, you get 60% as a lump sum. The rest stays to pay you a monthly salary.",
     entryGuide: "Register online via eNPS or at your bank. You get a PRAN card.",
     redFlags: [],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "",
+    mfSchemeCode: "120841",
     businessModel: [
       "Who manages it? Professional fund managers approved by the regulator.",
       "What do they buy? A mix of company shares and government loans.",
@@ -104,11 +104,11 @@ export const investments = [
     suitedFor: ["Gold lovers", "Long-term investors", "People tired of locker charges"],
     notSuitedFor: ["People needing gold for a wedding next month", "Short-term speculators"],
     exitGuide: "Wait 8 years for tax-free exit. Or sell on the stock market if you have a demat account.",
-    entryGuide: "Buy via your bank's app when the government opens a new 'window'.",
+    entryGuide: "Buy via your bank's app when the government opens a new window.",
     redFlags: [],
     tag: "",
-    apiSymbol: "",
-    mfSchemeCode: "",
+    apiSymbol: "GOLDBEES.BSE",
+    mfSchemeCode: "135798",
     businessModel: [
       "Is there real gold? No, it's a promise by the government to pay the gold price.",
       "Why the extra 2.5%? It's an incentive to keep people away from physical gold.",
@@ -134,13 +134,13 @@ export const investments = [
     suitedFor: ["Long-term wealth builders", "People who don't want to pick stocks", "Everyone"],
     notSuitedFor: ["People who panic when the market drops 10%", "Those needing money in 1-2 years"],
     exitGuide: "Sell anytime. Money hits your bank in 2 days. Remember, short-term drops are normal.",
-    entryGuide: "Use any mutual fund app. Search for 'Nifty 50 Index Fund' and start a monthly SIP.",
+    entryGuide: "Use any mutual fund app. Search for Nifty 50 Index Fund and start a monthly SIP.",
     redFlags: [],
     tag: "",
     apiSymbol: "",
     mfSchemeCode: "120503",
     businessModel: [
-      "Who picks the companies? The index does. No human 'expert' bias.",
+      "Who picks the companies? The index does. No human expert bias.",
       "What if a company fails? It gets kicked out of the top 50 and a new winner enters.",
       "How much does it cost? Very little. Usually less than 0.2% per year."
     ],
@@ -163,8 +163,8 @@ export const investments = [
     verdictReason: "Steady growth with relatively lower risk compared to other stock funds.",
     suitedFor: ["Conservative stock investors", "5-year goals"],
     notSuitedFor: ["People wanting 100% safety", "Very short term"],
-    exitGuide: "Click 'Redeem' in your app. Money arrives in 2-3 working days.",
-    entryGuide: "Pick a top-rated Large Cap fund on any MF app. Check the 'Expense Ratio' first.",
+    exitGuide: "Click Redeem in your app. Money arrives in 2-3 working days.",
+    entryGuide: "Pick a top-rated Large Cap fund on any MF app. Check the Expense Ratio first.",
     redFlags: [],
     tag: "",
     apiSymbol: "",
@@ -193,7 +193,7 @@ export const investments = [
     verdictReason: "Currently very expensive. High risk of a big drop if the market cools down.",
     suitedFor: ["Aggressive investors", "People with 10+ years to wait"],
     notSuitedFor: ["Retirees", "People using their emergency fund", "Faint-hearted"],
-    exitGuide: "Redeem anytime, but be ready for 'Exit Loads' (penalty) if you leave within 1 year.",
+    exitGuide: "Redeem anytime, but be ready for Exit Loads (penalty) if you leave within 1 year.",
     entryGuide: "Start a small SIP. Never put all your money here at once.",
     redFlags: [
       { level: "yellow", message: "Valuations are very high right now. You might be buying at the peak." }
@@ -202,9 +202,9 @@ export const investments = [
     apiSymbol: "",
     mfSchemeCode: "125354",
     businessModel: [
-      "How do they grow? By finding the next 'Unicorn' before everyone else.",
+      "How do they grow? By finding the next Unicorn before everyone else.",
       "What's the catch? Many small companies fail or never grow.",
-      "Why 'Wait & Watch'? Because these funds have run up too fast recently."
+      "Why Wait & Watch? Because these funds have run up too fast recently."
     ],
     bubbleVsReality: {
       bubble: "This is the fastest way to get rich.",
@@ -226,13 +226,13 @@ export const investments = [
     suitedFor: ["People wanting regular income", "Real estate lovers with small budgets"],
     notSuitedFor: ["People who want to live in their investment", "High growth seekers"],
     exitGuide: "Sell your units on the stock exchange (NSE/BSE) via your broker app.",
-    entryGuide: "Search for 'Embassy REIT' or 'Nexus Select' on your stock broker app.",
+    entryGuide: "Search for Embassy REIT or Nexus Select on your stock broker app.",
     redFlags: [
-      { level: "yellow", message: "Commercial real estate can stay empty if 'Work from Home' increases." }
+      { level: "yellow", message: "Commercial real estate can stay empty if Work from Home increases." }
     ],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "",
+    mfSchemeCode: "145552",
     businessModel: [
       "How do I get paid? They must distribute 90% of their cash profit as dividends.",
       "Who are the tenants? Usually big IT companies and global firms.",
@@ -254,21 +254,21 @@ export const investments = [
     lockIn: "Fixed tenure",
     tax: "Interest added to income and taxed at your slab.",
     verdict: "WAIT & WATCH",
-    verdictReason: "Higher interest but if the company goes bust, your money is gone. Stick to 'AAA' rated ones.",
+    verdictReason: "Higher interest but if the company goes bust, your money is gone. Stick to AAA rated ones.",
     suitedFor: ["People wanting more than FD", "Experienced investors"],
     notSuitedFor: ["Absolute beginners", "People who can't check company health"],
-    exitGuide: "Hard to sell before the term ends. You usually have to wait until the bond 'matures'.",
+    exitGuide: "Hard to sell before the term ends. You usually have to wait until the bond matures.",
     entryGuide: "Use platforms like GoldenPi or Wint Wealth to browse available bonds.",
     redFlags: [
       { level: "red", message: "High interest often means high risk. If they offer 12%+, be very careful." }
     ],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "",
+    mfSchemeCode: "119551",
     businessModel: [
       "Why do they need my money? To build factories or pay off old loans.",
-      "What if they don't pay? You are a 'creditor'. You get in line to get paid from their assets.",
-      "What are ratings? 'AAA' is safest. 'D' means they have already failed."
+      "What if they don't pay? You are a creditor. You get in line to get paid from their assets.",
+      "What are ratings? AAA is safest. D means they have already failed."
     ],
     bubbleVsReality: {
       bubble: "It's just like a bank FD.",
@@ -286,13 +286,13 @@ export const investments = [
     lockIn: "None",
     tax: "12.5% long term, 20% short term.",
     verdict: "CHECK RED FLAGS",
-    verdictReason: "Great if you know what you're doing. Dangerous if you're following 'tips'.",
+    verdictReason: "Great if you know what you're doing. Dangerous if you're following tips.",
     suitedFor: ["People who enjoy reading business news", "Long-term risk takers"],
-    notSuitedFor: ["People looking for 'quick tips'", "Those who can't handle 30% drops"],
+    notSuitedFor: ["People looking for quick tips", "Those who can't handle 30% drops"],
     exitGuide: "Sell instantly during market hours (9:15 AM to 3:30 PM).",
     entryGuide: "Open a Demat account (Zerodha, Groww, etc.) and buy shares of companies you use.",
     redFlags: [
-      { level: "yellow", message: "Avoid 'Penny Stocks' (shares costing Rs 2-5). They are often traps." },
+      { level: "yellow", message: "Avoid Penny Stocks (shares costing Rs 2-5). They are often traps." },
       { level: "red", message: "Never invest based on WhatsApp or Telegram tips." }
     ],
     tag: "",
@@ -301,11 +301,11 @@ export const investments = [
     businessModel: [
       "How do I make money? Share price goes up + Dividends.",
       "What's the risk? The company could lose to a competitor or go bankrupt.",
-      "Why 'Check Red Flags'? Because individual stocks are much riskier than a group of 50 stocks."
+      "Why Check Red Flags? Because individual stocks are much riskier than a group of 50 stocks."
     ],
     bubbleVsReality: {
       bubble: "I can find the next Apple or Google.",
-      reality: "Most people lose money trying to find the 'next big thing'. Stick to quality."
+      reality: "Most people lose money trying to find the next big thing. Stick to quality."
     }
   },
   {
@@ -319,14 +319,14 @@ export const investments = [
     lockIn: "Duration of the chit",
     tax: "Dividends are usually not taxed, but check local rules.",
     verdict: "STAY AWAY",
-    verdictReason: "Extremely high risk of fraud. Many 'unregistered' chits vanish with your money.",
+    verdictReason: "Extremely high risk of fraud. Many unregistered chits vanish with your money.",
     suitedFor: ["Small businessmen needing quick loans (maybe)"],
     notSuitedFor: ["Everyone else", "People wanting safe growth"],
     exitGuide: "Very difficult. You usually have to keep paying until the circle completes.",
-    entryGuide: "Usually via a local 'foreman' or agent. We recommend avoiding this.",
+    entryGuide: "Usually via a local foreman or agent. We recommend avoiding this.",
     redFlags: [
       { level: "red", message: "Unregistered chit funds are illegal and have zero protection." },
-      { level: "red", message: "The 'Foreman' can run away with the entire month's collection." }
+      { level: "red", message: "The Foreman can run away with the entire month's collection." }
     ],
     tag: "DANGER",
     apiSymbol: "",
@@ -334,7 +334,7 @@ export const investments = [
     businessModel: [
       "How does it work? It's a social credit system. You save and borrow at the same time.",
       "Is it regulated? Only if registered. Most neighborhood ones are not.",
-      "Why 'Stay Away'? Because there are better, safer ways to save now."
+      "Why Stay Away? Because there are better, safer ways to save now."
     ],
     bubbleVsReality: {
       bubble: "It's a great way to save with friends.",
@@ -370,7 +370,7 @@ export const investments = [
     ],
     bubbleVsReality: {
       bubble: "The US market always goes up.",
-      reality: "It can have 'lost decades' where it doesn't move. Don't put all your eggs here."
+      reality: "It can have lost decades where it doesn't move. Don't put all your eggs here."
     }
   },
   {
@@ -388,7 +388,7 @@ export const investments = [
     suitedFor: ["Beginners wanting global exposure", "Long term savers"],
     notSuitedFor: ["People in the 30% tax bracket (high tax)", "Short term"],
     exitGuide: "Same as Indian mutual funds. Redeem in your app, get money in 4-5 days.",
-    entryGuide: "Search for 'Nasdaq 100' or 'US Equity' funds on your MF app.",
+    entryGuide: "Search for Nasdaq 100 or US Equity funds on your MF app.",
     redFlags: [
       { level: "yellow", message: "SEBI often stops new investments in these funds due to limit issues." }
     ],
@@ -427,11 +427,11 @@ export const investments = [
     ],
     tag: "FOREIGN",
     apiSymbol: "",
-    mfSchemeCode: "",
+    mfSchemeCode: "135798",
     businessModel: [
-      "Is there real gold? The companies claim to keep it in 'Brinks' or 'SafeGold' vaults.",
-      "How do they make money? From the 'Spread' (they sell high, buy low).",
-      "Why 'Wait & Watch'? Because SGB is a much better deal for most people."
+      "Is there real gold? The companies claim to keep it in Brinks or SafeGold vaults.",
+      "How do they make money? From the Spread (they sell high, buy low).",
+      "Why Wait & Watch? Because SGB is a much better deal for most people."
     ],
     bubbleVsReality: {
       bubble: "It's the easiest way to buy gold.",
@@ -463,8 +463,8 @@ export const investments = [
     mfSchemeCode: "",
     businessModel: [
       "What is it? A decentralized ledger. It has value only because others think it does.",
-      "Who controls it? No one. That's the 'feature' and the 'bug'.",
-      "Why 'Stay Away'? Because it's too unpredictable for life's important goals."
+      "Who controls it? No one. That's the feature and the bug.",
+      "Why Stay Away? Because it's too unpredictable for life's important goals."
     ],
     bubbleVsReality: {
       bubble: "It's the future of money.",
