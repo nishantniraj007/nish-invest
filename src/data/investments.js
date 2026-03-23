@@ -138,7 +138,7 @@ export const investments = [
     redFlags: [],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "120503",
+    mfSchemeCode: "120716",
     businessModel: [
       "Who picks the companies? The index does. No human expert bias.",
       "What if a company fails? It gets kicked out of the top 50 and a new winner enters.",
@@ -168,7 +168,7 @@ export const investments = [
     redFlags: [],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "102885",
+    mfSchemeCode: "118825",
     businessModel: [
       "What do they buy? Companies that are household names.",
       "Why use a manager? To try and beat the basic index (though it's hard).",
@@ -200,7 +200,7 @@ export const investments = [
     ],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "125354",
+    mfSchemeCode: "118778",
     businessModel: [
       "How do they grow? By finding the next Unicorn before everyone else.",
       "What's the catch? Many small companies fail or never grow.",
