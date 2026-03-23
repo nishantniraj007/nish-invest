@@ -85,7 +85,7 @@ const PerformanceGraph = ({ schemeCode }) => {
         </div>
       </div>
 
-      <div className="h-64 w-full relative">
+      <div className="h-64 w-full relative min-h-[256px]">
         <ResponsiveContainer width="100%" height="100%">
           <LineChart data={filteredData}>
             <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f0f0f0" />

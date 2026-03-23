@@ -78,7 +78,7 @@ export const investments = [
     redFlags: [],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "120841",
+    mfSchemeCode: "",
     businessModel: [
       "Who manages it? Professional fund managers approved by the regulator.",
       "What do they buy? A mix of company shares and government loans.",
@@ -108,7 +108,7 @@ export const investments = [
     redFlags: [],
     tag: "",
     apiSymbol: "GOLDBEES.BSE",
-    mfSchemeCode: "135798",
+    mfSchemeCode: "",
     businessModel: [
       "Is there real gold? No, it's a promise by the government to pay the gold price.",
       "Why the extra 2.5%? It's an incentive to keep people away from physical gold.",
@@ -232,7 +232,7 @@ export const investments = [
     ],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "145552",
+    mfSchemeCode: "",
     businessModel: [
       "How do I get paid? They must distribute 90% of their cash profit as dividends.",
       "Who are the tenants? Usually big IT companies and global firms.",
@@ -264,7 +264,7 @@ export const investments = [
     ],
     tag: "",
     apiSymbol: "",
-    mfSchemeCode: "119551",
+    mfSchemeCode: "",
     businessModel: [
       "Why do they need my money? To build factories or pay off old loans.",
       "What if they don't pay? You are a creditor. You get in line to get paid from their assets.",
@@ -427,7 +427,7 @@ export const investments = [
     ],
     tag: "FOREIGN",
     apiSymbol: "",
-    mfSchemeCode: "135798",
+    mfSchemeCode: "",
     businessModel: [
       "Is there real gold? The companies claim to keep it in Brinks or SafeGold vaults.",
       "How do they make money? From the Spread (they sell high, buy low).",
